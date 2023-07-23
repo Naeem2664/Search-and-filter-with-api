@@ -38,7 +38,7 @@ console.log( arr[itemIndex] ); // 4
       <div className="col-md-11">
      <InputGroup className="mb-3 mt-5">
         <Form.Control
-          placeholder="Search Contact"
+          placeholder="Search Contact in Lower Case"
           aria-label=""
           aria-describedby="basic-addon2"
           onChange={Filter}

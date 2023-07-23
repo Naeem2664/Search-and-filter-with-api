@@ -13,7 +13,7 @@ function Contact() {
       <div className="col-md-11">
       <InputGroup className="mb-3 mt-5">
         <Form.Control
-          placeholder="Search Contact"
+          placeholder="Search Contact in Lower Case"
           aria-label=""
           aria-describedby="basic-addon2"
           onChange={(e)=>setSearch(e.target.value)}

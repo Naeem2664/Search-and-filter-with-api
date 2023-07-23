@@ -33,6 +33,9 @@ console.log( arr[itemIndex] ); // 4
 
   return (
     <>
+      <div className="container">
+      <div className="row">
+      <div className="col-md-11">
      <InputGroup className="mb-3 mt-5">
         <Form.Control
           placeholder="Search Contact"
@@ -42,7 +45,11 @@ console.log( arr[itemIndex] ); // 4
         />
 
       </InputGroup>
+              </div>
+              </div>
 
+               <div className="row">
+      <div className="col-md-11">
     <Table striped bordered hover variant="dark">
       <thead>
         <tr>
@@ -66,7 +73,10 @@ console.log( arr[itemIndex] ); // 4
         
       </tbody>
     </Table>
-
+            
+            </div>
+            </div>
+            </div>
     </>
   )
 }

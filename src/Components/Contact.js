@@ -9,7 +9,8 @@ function Contact() {
     const [search,setSearch]=useState('')
   return (
     <div className="container">
-        
+        <div className="row">
+      <div className="col-md-11">
       <InputGroup className="mb-3 mt-5">
         <Form.Control
           placeholder="Search Contact"
@@ -19,6 +20,10 @@ function Contact() {
         />
 
       </InputGroup>
+              </div>
+              </div>
+              <div className="row">
+              <div className="col-md-11">
     <Table striped bordered hover variant="light">
       <thead>
         <tr>
@@ -44,6 +49,8 @@ function Contact() {
       )})} 
       </tbody>
     </Table>
+    </div>
+    </div>
     </div>
   );
 }

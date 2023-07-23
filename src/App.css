@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: rgb(169, 169, 247);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 190px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  margin: 4px;
+  padding: 14px;
+  background-color: rgb(102, 102, 255);
+  font-size: 20px;
+  font-weight: 100;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+hr{
+  margin: 5px;
+  height: 10px;
+  color: black;
+
+}
+img{
+  margin: 2px;
+}
+.gitusers{
+  display: flex;
+}
+.user{
+  
+  border: 1px solid black;
+  margin: 4px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 3px;
+}
